@@ -1,0 +1,81 @@
+  .mlext-btn{
+    padding: 2px 4px;
+    background-color: #fff;
+    color: #3483fa;
+    font-weight: bold;
+    font-size: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: #3483fa;
+    cursor: pointer;
+
+  }
+
+  .mlext-btn:hover{
+    background-color: #3483fa;
+    color: #fff;
+  }
+
+  .mlext-input{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 2px 0px;
+    padding: 5px;
+    border-top: solid;
+    border-width: 2px;
+    border-color: #3483fa;
+    border-radius: 8px;
+    
+  }
+
+  .mlext-div{
+
+    margin-bottom: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-top: solid;
+    border-width: 2px;
+    border-color: #3483fa;
+    border-radius: 8px;
+  }
+
+
+  
+  .mlext-div li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 2px 0px;
+  }
+  
+  .mlext-div li > span {
+    padding: 2px 4px;
+    background-color: #fff;
+    color: #3483fa;
+    font-weight: bold;
+    font-size: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: #3483fa;
+    cursor: pointer;
+  }
+  
+  .mlext-div li > span:hover {
+    background-color: #3483fa;
+    color: #fff;
+  }
+  .mlext-input input {
+    flex-grow: 1;
+  }
+  
+  .mlext-input button {
+    margin-left: 2px;
+  }

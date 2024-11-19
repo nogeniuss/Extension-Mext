@@ -1,0 +1,28 @@
+oque esta extensão ira fazer?
+
+- ela ira realizar a seguinte operação
+1. Trazer receita bruta do produto - feito
+2. Trazer quantidade que o MeLi mostra de estoque --> verificar com o bruno
+-- para não utilizar a api
+3. Ela ira abrir uma pagina bubble para cadastrar usuarios e tal
+5. nesta tela mostra o link, a quantidade em estoque atual e a receita bruta, imagem e quantidade para alertar
+
+para isso vou precisar :
+
+1. File index.js 
+tera as principais funções, como calculo de dados, busca destes dados e as funcionalidade da extensão na 
+pagina do MeLi
+
+2. File Style.css
+estiliza a index.js
+
+3. File Manifest.json
+necessario para o navegador entender qual a funcionalidade e por onde a extensão começa
+
+4. bubble
+sera onde o usuario vera os anuncios em monitoramento, em uma tabela. (ideia - talvez, mandar estes dados
+via api, e construir esta tela no bubble)
+
+
+5. File api.js
+esta file, sera responsavel pelar parte de enviar dados para o banco de dados do bubble, quando clicar para monitorar
